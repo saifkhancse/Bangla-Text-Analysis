@@ -1,0 +1,16 @@
+# Core app + UI
+streamlit>=1.36
+plotly>=5.22
+pillow>=10.4
+
+# Data + Spark
+pyspark>=3.5.1
+pandas>=2.2.2
+numpy>=1.26
+pyarrow>=16.1  # Parquet I/O for pandas/pySpark interop
+
+# Word clouds (PNG via headless snapshot)
+pyecharts>=2.0.0
+snapshot-selenium>=0.0.3
+selenium>=4.23.0
+webdriver-manager>=4.0.2
