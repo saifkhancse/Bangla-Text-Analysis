@@ -1,16 +1,18 @@
-# Core app + UI
-streamlit>=1.36
-plotly>=5.22
-pillow>=10.4
+# Requirements inferred from app.txt imports
+# Core
+pyspark==3.5.1
+streamlit
+pandas
+numpy
+psutil
+requests
 
-# Data + Spark
-pyspark>=3.5.1
-pandas>=2.2.2
-numpy>=1.26
-pyarrow>=16.1  # Parquet I/O for pandas/pySpark interop
-
-# Word clouds (PNG via headless snapshot)
+# Visualization
+matplotlib
+seaborn
+plotly
+wordcloud
 pyecharts>=2.0.0
-snapshot-selenium>=0.0.3
-selenium>=4.23.0
-webdriver-manager>=4.0.2
+snapshot-selenium
+selenium
+pillow
